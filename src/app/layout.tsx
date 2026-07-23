@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans, GeistMono } from "geist/font";
 import "./globals.css";
 
-import Background from "@/components/common/Background";
+import Background from "@/components/effects/background/Background";
 
 export const metadata: Metadata = {
   title: "Your Name",

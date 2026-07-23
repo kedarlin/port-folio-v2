@@ -1,8 +1,8 @@
 import BackgroundBase from "./BackgoundBase";
-import GlowLayer from "./GlowLayer";
-import GradientMask from "./GradientMask";
-import GridLayer from "./GridLayer";
-import NoiseLayer from "./NoiseLayer";
+import GlowLayer from "../../common/GlowLayer";
+import GradientMask from "../../common/GradientMask";
+import GridLayer from "../../common/GridLayer";
+import NoiseLayer from "../../common/NoiseLayer";
 
 export default function Background() {
   return (
