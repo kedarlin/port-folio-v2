@@ -16,6 +16,24 @@ export const siteConfig = {
         "SwiftUI",
     ],
 
+    hero: {
+        greeting: "Hello, I'm",
+
+        headline:
+            "Building performant mobile experiences with Flutter and native technologies.",
+
+        description:
+            "Software Engineer with 1+ years of experience building production Flutter applications, integrating REST APIs, real-time communication, CI/CD pipelines, and exploring native audio systems and SwiftUI.",
+
+        technologies: [
+            "Flutter",
+            "Dart",
+            "SwiftUI",
+            "Firebase",
+            "TypeScript",
+        ],
+    },
+
     navigation: [
         {
             label: "About",
