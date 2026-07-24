@@ -1,5 +1,6 @@
 export const siteConfig = {
     name: "Kedar",
+    shortName: "K",
 
     role: "Mobile Engineer",
 
@@ -15,7 +16,24 @@ export const siteConfig = {
         "SwiftUI",
     ],
 
-    // navigation: [...],
+    navigation: [
+        {
+            label: "About",
+            href: "#about",
+        },
+        {
+            label: "Experience",
+            href: "#experience",
+        },
+        {
+            label: "Projects",
+            href: "#projects",
+        },
+        {
+            label: "Contact",
+            href: "#contact",
+        },
+    ],
 
     // socials: [...],
 };

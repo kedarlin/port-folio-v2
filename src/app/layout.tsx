@@ -3,6 +3,7 @@ import { GeistSans, GeistMono } from "geist/font";
 import "./globals.css";
 
 import Background from "@/components/effects/background/Background";
+import Navbar from "@/components/layout/navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "Your Name",
@@ -21,7 +22,11 @@ export default function RootLayout({
       >
         <Background />
 
-        <main className="relative z-10 min-h-screen">{children}</main>
+        <>
+          <Navbar />
+          {children}
+        </>
+        <main className="pt-20">{children}</main>
       </body>
     </html>
   );

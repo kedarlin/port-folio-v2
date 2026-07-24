@@ -1,4 +1,4 @@
-import BackgroundBase from "./BackgoundBase";
+import BackgroundBase from "../../common/BackgoundBase";
 import GlowLayer from "../../common/GlowLayer";
 import GradientMask from "../../common/GradientMask";
 import GridLayer from "../../common/GridLayer";
