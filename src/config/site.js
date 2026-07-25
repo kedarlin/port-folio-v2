@@ -60,4 +60,35 @@ export const siteConfig = {
         linkedin: "https://linkedin.com/in/yourusername",
         email: "mailto:your@email.com",
     },
+
+    about: {
+        title: "About",
+
+        heading: "Crafting scalable mobile experiences with a focus on performance and clean architecture.",
+
+        description: [
+            "I'm a Software Engineer specializing in Flutter with experience building production-ready applications used in real-world environments. My work focuses on creating reliable, maintainable, and user-centric mobile experiences.",
+
+            "Beyond application development, I enjoy exploring Flutter internals, native Android development, SwiftUI, and high-performance audio systems to better understand how software works beneath the surface.",
+        ],
+
+        stats: [
+            {
+                value: "1+",
+                label: "Years Experience",
+            },
+            {
+                value: "2+",
+                label: "Apps Shipped",
+            },
+            {
+                value: "15+",
+                label: "Features Delivered",
+            },
+            {
+                value: "100%",
+                label: "Passion for Learning",
+            },
+        ],
+    },
 };
