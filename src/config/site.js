@@ -91,4 +91,54 @@ export const siteConfig = {
             },
         ],
     },
+
+    experience: {
+        title: "Experience",
+
+        heading: "Building products used by real users.",
+
+        description:
+            "My professional journey developing production-ready mobile applications and collaborating with cross-functional teams.",
+
+        items: [
+            {
+                company: "RootQuotient",
+                role: "Software Developer",
+                duration: "Jun 2025 - Present",
+
+                technologies: [
+                    "Flutter",
+                    "Firebase",
+                    "REST API",
+                    "BLoC",
+                    "Azure DevOps",
+                ],
+
+                achievements: [
+                    "Developed and shipped production Flutter applications.",
+                    "Implemented scalable REST API integrations.",
+                    "Built reusable UI components.",
+                    "Collaborated with designers and backend developers.",
+                ],
+            },
+
+            {
+                company: "RootQuotient",
+                role: "Software Developer Intern",
+                duration: "Sep 2024 - May 2025",
+
+                technologies: [
+                    "Flutter",
+                    "Firebase",
+                    "FCM",
+                ],
+
+                achievements: [
+                    "Built new mobile features.",
+                    "Worked on real-time chat.",
+                    "Implemented authentication flows.",
+                ],
+            },
+        ],
+    },
 };
