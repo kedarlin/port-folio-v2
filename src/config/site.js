@@ -141,4 +141,32 @@ export const siteConfig = {
             },
         ],
     },
+    projects: {
+        title: "Projects",
+
+        heading: "Some things I've built.",
+
+        description:
+            "A collection of projects showcasing production applications, personal experiments, and technologies I'm passionate about.",
+
+        items: [
+            {
+                title: "LoFi - Audio Player",
+
+                description:
+                    "Flutter application for playing local audio songs",
+
+                technologies: [
+                    "Flutter",
+                    "BLoC",
+                    "C++",
+                    "Kotlin"
+                ],
+
+                github: "",
+
+                demo: "",
+            },
+        ],
+    },
 };
