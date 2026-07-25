@@ -53,5 +53,11 @@ export const siteConfig = {
         },
     ],
 
-    // socials: [...],
+    resume: "/resume.pdf",
+
+    socials: {
+        github: "https://github.com/yourusername",
+        linkedin: "https://linkedin.com/in/yourusername",
+        email: "mailto:your@email.com",
+    },
 };
