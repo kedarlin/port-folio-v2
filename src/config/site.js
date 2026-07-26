@@ -252,4 +252,33 @@ export const siteConfig = {
             },
         ],
     },
+    contact: {
+        title: "Get In Touch",
+
+        heading: "Let's build something meaningful together.",
+
+        description:
+            "Whether it's mobile applications, backend systems, or full-stack products, I'm always excited to collaborate on challenging engineering problems.",
+
+        email: "YOUR_EMAIL",
+
+        actions: [
+            {
+                title: "Email",
+                href: "mailto:YOUR_EMAIL",
+            },
+            {
+                title: "GitHub",
+                href: "https://github.com/...",
+            },
+            {
+                title: "LinkedIn",
+                href: "https://linkedin.com/in/...",
+            },
+            {
+                title: "Resume",
+                href: "/resume.pdf",
+            },
+        ],
+    },
 };

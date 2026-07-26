@@ -50,3 +50,21 @@ body {
 
   background-size: 8px 8px;
 }
+
+@keyframes gradientMove {
+  0% {
+    transform: scale(1) translate(0px, 0px);
+  }
+
+  50% {
+    transform: scale(1.15) translate(40px, -30px);
+  }
+
+  100% {
+    transform: scale(1) translate(0px, 0px);
+  }
+}
+
+.animate-gradient {
+  animation: gradientMove 12s ease-in-out infinite;
+}

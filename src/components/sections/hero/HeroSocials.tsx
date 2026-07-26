@@ -27,7 +27,7 @@ const socials = [
 export default function HeroSocials() {
   return (
     <div className="mt-10 flex items-center gap-6">
-      {socials.map((social) => {
+      {socials.map((social, index) => {
         const Icon = social.icon;
 
         return (
@@ -41,7 +41,7 @@ export default function HeroSocials() {
             }}
           >
             <Link
-              key={social.label}
+              key={social.label + index}
               href={social.href}
               target="_blank"
               aria-label={social.label}
