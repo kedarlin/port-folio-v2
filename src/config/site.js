@@ -169,4 +169,87 @@ export const siteConfig = {
             },
         ],
     },
+    engineeringFocus: {
+        title: "Engineering Focus",
+
+        heading:
+            "Continuously expanding across the software engineering landscape.",
+
+        description:
+            "My professional experience began with Flutter, but my curiosity has pushed me into backend engineering, full-stack development, and understanding how software works beneath the abstractions. I enjoy learning technologies that help me build complete, scalable products.",
+
+        items: [
+            {
+                title: "Backend Engineering",
+                technologies: [
+                    "Node.js",
+                    "Express",
+                    "PostgreSQL",
+                    "TypeORM",
+                    "JWT",
+                ],
+                description:
+                    "Building secure REST APIs with authentication, authorization, refresh tokens, and scalable backend architecture.",
+            },
+
+            {
+                title: "Modern Frontend",
+                technologies: [
+                    "Next.js",
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                ],
+                description:
+                    "Learning modern frontend architecture while building responsive and performant web applications.",
+            },
+
+            {
+                title: "Full-Stack Development",
+                technologies: [
+                    "MongoDB",
+                    "Express",
+                    "React",
+                    "Node.js",
+                ],
+                description:
+                    "Building MERN applications to better understand end-to-end product development.",
+            },
+
+            {
+                title: "Mobile Engineering",
+                technologies: [
+                    "Flutter",
+                    "Firebase",
+                    "BLoC",
+                    "REST APIs",
+                ],
+                description:
+                    "Designing maintainable production-ready mobile applications with scalable architecture and native integrations.",
+            },
+
+            {
+                title: "Software Architecture",
+                technologies: [
+                    "Authentication",
+                    "RBAC",
+                    "System Design",
+                ],
+                description:
+                    "Understanding how scalable systems are designed, secured, and maintained.",
+            },
+
+            {
+                title: "Framework Internals",
+                technologies: [
+                    "Flutter Engine",
+                    "Rendering",
+                    "Android",
+                    "NDK",
+                ],
+                description:
+                    "Exploring frameworks beyond their APIs to better understand performance and system behavior.",
+            },
+        ],
+    },
 };
